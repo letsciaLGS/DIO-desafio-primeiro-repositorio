@@ -1,0 +1,16 @@
+ Chave SSH 
+
+Chave SSH: Forma de estabelecer uma conexão 
+segura e encriptada entre duas máquinas.
+
+1. Gerar par de chaves (publica e privada) -> ssh-keygen -t ed25519 -C <email>
+2. Usar a chave publica no github para gerar a chave SSH (comando para conseguir a chave pública: cat id_ed25519.pub [no local onde ela foi salva] ou ir la na pasta pegar :) )
+3. Adicionar a chave criada ao ssh-agent
+4. Inicializar ssh agent > comando: eval $(ssh-agent -s)
+5. Adicionar chave ao agente (chave privada) > ssh-add id_25519
+ok
+clonar repositorio do github / comando: git clone <link>
+
+
+
+
