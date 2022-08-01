@@ -7,3 +7,5 @@ Desafio de projeto sobre Git/GitHub
 [Sintaxe Básica Markdown](https://www.markdownguide.org/basic-syntax/)
 
 [Comandos GIT](https://comandosgit.github.io)
+
+[GitHub Docs](https://docs.github.com/pt)
